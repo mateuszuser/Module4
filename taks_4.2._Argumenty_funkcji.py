@@ -1,5 +1,5 @@
 def check_palidrom(palidrom):
-    if palidrom[-1::-1] == palidrom[0: len(palidrom)]:
+    if palidrom[-1::-1] == palidrom:
         print(f"The word {palidrom} is palidrom")
     else:
         print(f"The word {palidrom} is not palidrom")
